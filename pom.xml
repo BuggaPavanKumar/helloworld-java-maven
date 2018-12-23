@@ -39,17 +39,26 @@
 	</build>
   
 <distributionManagement>
-    <repository>
-        <id>cts-nexus</id>
-        <name>cts-releases</name>
-        <url>http://10.249.32.111:8081/nexus/content/repositories/cts-release/</url>
-    </repository>
-    <snapshotRepository>
-        <id>cts-nexus</id>
-        <name>cts-snapshots</name>
-        <url>http://10.249.32.111:8081/nexus/content/repositories/cts-snapshot/</url>
-    </snapshotRepository>
+	<repository>
+		<id>cts</id>
+		<name>pavan-test</name>
+		<url>http://52.66.212.86:8081/repository/pavan-test/</url>
+	</repository>
+ 
+	<snapshotRepository>
+		<id>cts</id>
+		<name>pavan-test2</name>
+		<url>http://52.66.212.86:8081/repository/pavan-test2/</url>
+	</snapshotRepository>
+
 </distributionManagement>
+
+=====================SETTING.XML=================================
+   <server>
+		<id>cts</id>
+		<username>admin</username>
+		<password>admin123</password>
+</server>
 
 
 
