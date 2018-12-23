@@ -4,15 +4,15 @@ For any questions - Please email me at DevOps@RajeshKumar.xyz
 
 <distributionManagement>
 	<repository>
-		<id>tata</id>
-		<name>Internal Releases</name>
-		<url>http://13.127.163.182:8081/repository/scmgalaxy/</url>
+		<id>cts</id>
+		<name>pavan-test</name>
+		<url>http://52.66.212.86:8081/repository/pavan-test/</url>
 	</repository>
  
 	<snapshotRepository>
-		<id>tata</id>
-		<name>Internal Releases</name>
-		<url>http://52.66.106.91:8081/nexus/content/repositories/snapshot/</url>
+		<id>cts</id>
+		<name>pavan-test2</name>
+		<url>http://52.66.212.86:8081/repository/pavan-test2/</url>
 	</snapshotRepository>
 
 </distributionManagement>
@@ -36,9 +36,9 @@ For any questions - Please email me at DevOps@RajeshKumar.xyz
 
 =====================SETTING.XML=================================
    <server>
-		<id>rajesh</id>
-		<username>rajesh-user</username>
-		<password>rajesh-user123</password>
+		<id>cts</id>
+		<username>admin</username>
+		<password>admin123</password>
 </server>
 
 =======================Setting.xml with Artifactory Setup======================
