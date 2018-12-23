@@ -36,7 +36,7 @@ For any questions - Please email me at DevOps@RajeshKumar.xyz
 
 =====================SETTING.XML=================================
    <server>
-		<id>cts</id>
+		<id>sym</id>
 		<username>admin</username>
 		<password>admin123</password>
 </server>
